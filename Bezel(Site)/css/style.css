@@ -1,0 +1,376 @@
+body{
+    background-color:#F7F7F7;
+    font-family:"MarkaziText";
+    font-size:20px;
+}
+
+/********************************* First Section *************************************/
+.navbar{
+    border-bottom:white .5px solid;
+    background-color:black; 
+}   
+.icons_contact{
+    border-left:white .5px solid;
+}
+.icons_contact > div{
+    height: 40px;
+    width:40px;
+    background-color:black;
+}
+.icons_contact >div > i{
+    font-size:1.5rem;
+    color:white
+}
+.icons_contact >div:hover{
+    background-color:#29DCF1;
+    border-color:#29DCF1;
+    cursor:pointer;
+}
+.carsouel_one{
+    position:relative;
+    top:0px;
+}
+.pp{
+    position: absolute;
+    top:0;
+    left:0;
+    height:150vh;
+    width:100%;
+    background-color:rgba(1,1,1,.4);
+ 
+}
+.text_on_carsouel{
+    position:absolute;
+    bottom:30%;
+    /* animation:one .5s alternate ;*/ 
+}
+.text_on_carsouel h5{
+    font-size:7rem;
+    animation:one 1s alternate;
+}
+.text_on_carsouel p{
+    font-size:1.5rem;
+    animation:two 1s alternate;
+}
+.button_one{
+    background-color: #20abbb;
+    border-color:#20abbb;
+}
+.button_one:hover{
+    background-color:#29DCF1 !important;
+    border-color:#29DCF1 !important;
+}
+@keyframes one{
+    0%{opacity: 0;left:0;right:5%;}
+    25%{opacity: 25%;left:00;right:0;}
+    50%{opacity: 50%;left:5%;right:0;}
+    75%{opacity:75%;left:00;right:0;}
+    100%{opacity: 100%;left:0;right:0%;}
+}
+@keyframes two{
+    0%{opacity: 0;top:0;bottom:5%;}
+    25%{opacity: 25%;top:00;bottom:0;}
+    50%{opacity: 50%;top:5%;bottom:0;}
+    75%{opacity:75%;top:00;bottom:0;}
+    100%{opacity: 100%;top:0;bottom:0%;}
+}
+/*.side-box{
+    background-color:black;
+    width:50px;
+    position:absolute;
+    z-index: 1000000;
+}
+.side-box > div{
+    color:white;
+    width:40px;
+}
+.side-box > div:hover{
+    color:black;
+    background-color:#29DCF1;
+}*/
+/*************************************************************************************/
+
+
+
+
+/********************************* First Section *************************************/
+.section_2{
+    position:relative;
+    top:100px;
+}
+.section_2 > h3{
+    font-size:1rem;
+}
+.section_2 > p ::before{
+    content:" ";
+    position:relative;
+    top:30px;
+}
+.Read_More{
+    color:black;
+    border: black 2px solid;
+}
+.Read_More:hover{
+    color:white;
+    background-color:black
+}
+/*************************************************************************************/
+
+
+
+
+/********************************* Thired Section *************************************/ 
+.section_three{
+    position: relative;
+    top:200px;
+    border-top:#29DCF1 2px solid;
+}
+.section_three>div{
+    margin-top:50px;
+}
+.section_three>div>h1{
+    font-size:5rem;
+    color:#29DCF1;
+}
+.section_three>div>h2{
+    font-size:3rem;
+    position:relative;
+    bottom:80px;
+}
+.section_three>div>p{
+    position: relative;
+    bottom:30px;
+}
+.thierd_section{
+    position: relative;
+    top:100px;
+    overflow: hidden;
+}
+
+.thierd_section >div{
+    background-color: #29DCF1;
+}
+.cards{
+    height:100%;
+    width:100%;
+    background-color:#29DCF1;
+    position:absolute;
+    opacity: 0;
+    /*top:300px;*/
+    /*animation:animation-c 1s alternate;*/
+    transition:opacity 1s ;
+}
+.section_three>.thierd_section> div:hover .cards{
+    opacity:100;
+}
+.cards>div{
+    background-color: transparent;
+    height:100%;
+    width:100%;
+    border:none;
+}
+.cards>div>ul{
+    position:relative;
+    top:10px;
+    right:90px;
+}
+.text-down-the-cards{
+    position:relative;
+    top:170px;
+}
+.thierd_section>div>div{
+    background-color:#29DCF1;
+    height:100%;
+    width:100%;
+    /*overfloe:hidden*/
+}
+.in_cards{
+    color:white;
+}
+.in_cards >div{
+    height:40px;
+    width:40px;
+    background-color:white
+}
+.in_cards>i :hover{
+    background-color:black;
+}
+/*************************************************************************************/
+
+
+
+
+
+
+/********************************* Fourth Section *************************************/ 
+.fourthe_section{
+    background-color:#636363;
+    height:100vh;
+    width:100%;
+    color:white;
+    position: relative;
+    top:500px;
+}
+.fourth{
+    position:relative;
+    top:100px;
+}
+.fourth >div >i{
+    font-size:3rem;
+    color:#29DCF1;
+}
+.fourth> div> i:hover{
+    color:white;
+    cursor: pointer;
+}
+.fourth_two{
+    position:relative;
+    top:200px;
+
+}
+.fourth_two >div{
+    width:50%;
+}
+.fourth_two > div >div >h1{
+    font-size:5rem;
+    opacity:.5;
+}
+.fourth_two >div>div>h3{
+    font-size:2rem;
+    position: relative;
+    bottom:60px;
+}
+.four{
+    color:white;
+    /*background-color: #29DCF1;*/
+}
+.four:hover{
+    color:#29DCF1;
+    /*background-color: white;*/
+    cursor: pointer;
+}
+/*************************************************************************************/
+
+
+
+/********************************* fifthe Section *************************************/ 
+.fifth_section{
+    position: relative;
+    top:700px;
+}
+.fifth_section >div>h1{
+    font-size: 5rem;
+    color:#29DCF1;
+    opacity: .5;
+}
+.fifth_section >div>h2{
+    font-size:3rem;
+    position: relative;
+    bottom:70px;
+}
+.fifth_section >div>p{
+    position: relative;
+    bottom:60px;
+}
+.five >div{
+    height:450px;
+}
+.five >div>div>h5{
+    font-size:1rem;
+}
+.five >div >div>h1{
+    font-size:3rem;
+}
+.five >div >div> h1 ::after{
+    content:" ";
+    height:20px;
+    position:relative;
+    top:50px;
+}
+.five_text{
+    color:#29DCF1;
+}
+.five >div>div>div>button{
+    background-color: #29DCF1;
+    border-color:#29DCF1 ;
+}
+.five >div>div>button{
+    background-color: #29DCF1;
+    border-color:#29DCF1 ;
+}
+.five >div>div> h6{
+    font-size:1.2rem;
+    line-height:300%;
+}
+
+/*************************************************************************************/
+
+
+
+/********************************* sixth Section *************************************/
+.section_sixth{
+    position: relative;
+    top:900px;
+}
+.section_sixth h5{
+    position: relative;
+    bottom: 20px;
+}
+.six_one{
+    background-color:white;
+    height:400px;
+    width:75%;
+    position: relative;
+    top: 100px;
+    left:12%;
+    text-align: center;
+}
+.six_one >div >img{
+    height: 100px;
+    width:100px;
+    border-radius: 50px;
+    position: relative;
+    bottom:50px;
+}
+
+/*************************************************************************************/
+
+
+
+
+
+/********************************* Seventh Section *************************************/
+.seven_section{
+    position: relative;
+    top:1200px;
+}
+.seven_section >section{
+    margin-left: 50px;
+    position: relative;
+    bottom:20px;
+}
+.seven_section >section>section>h1{
+    font-size:5rem;
+    color:#29DCF1;
+    opacity: .5;
+    position: relative;
+    top:20px;
+}
+.seven_section>section>section>h2{
+    font-size:3rem;
+    position: relative;
+    bottom:50px;
+}
+.seven_section>section>section>p{
+    position: relative;
+    bottom:50px;
+}
+.seven_section >section>form{
+    position: relative;
+    bottom: 30px;;
+}
+.seven_section>section>form>button{
+    background-color: #29DCF1;
+    border-color: #29DCF1;
+}
+/*************************************************************************************/
